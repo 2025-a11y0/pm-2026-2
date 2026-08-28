@@ -61,6 +61,10 @@ Instalar dependencias:
 
     npm install
 
+COdigo para home.ejs (en docs y views)
+
+    > Quiero un homescreem usando bootstrap 5 sobre tecnologia
+
 
 ![](./docs/Git_subir.png)
 
