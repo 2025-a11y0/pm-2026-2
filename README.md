@@ -35,8 +35,27 @@ Crear proyecto GIT
 
 Loguearse
 
-    >
-    >
+    > git config --global user.name "Tu Nombre"
+    > git config --global user.email "tu-correo@gmail.com"
+
+    > git log --oneline
+
+Crear rama
+
+     > git checkout -b feature/prueba
+     > fir checout #nombre_rama
+
+Cambiar a commit
+
+    > git reset --hard #commit
+
+Cambiar remote
+
+    > git remote set-url origin https://github.com/2025-a11y0/pm-2026-2.git
+    
+Ver ramas 
+
+    > git branch
 
 Instalar dependencias:
 
