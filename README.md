@@ -23,6 +23,20 @@ La aplicación utiliza Supabase como base de datos y dispone de migraciones SQL 
 | `website/` | Lógica del sitio web: APIs, controladores, modelos, repositorios, rutas y servicios. |
 | `server.js` | Archivo principal para iniciar y configurar el servidor Express. |
 
+# Comandos GIT
+
+Descargar GIT del [enlace](https://git-scm.com/install/windows)
+
+![Sitio web de descarga](./docs/Git.png)
+
+Crear proyecto GIT
+
+    > git init
+
+Loguearse
+
+    >
+    >
 
 Instalar dependencias:
 
