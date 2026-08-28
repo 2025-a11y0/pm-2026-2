@@ -61,6 +61,9 @@ Instalar dependencias:
 
     npm install
 
+
+![](./docs/Git_subir.png)
+
 npm install -g vercel
 vercel login
 vercel --prod
