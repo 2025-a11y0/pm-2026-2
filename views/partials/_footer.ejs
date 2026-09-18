@@ -1,68 +1,92 @@
 <!-- views/partials/_footer.ejs -->
-<footer class="bg-dark text-white mt-auto">
+
+<footer class="bg-dark text-light mt-5">
 
   <div class="container py-5">
 
     <div class="row g-4">
 
-      <!-- Información -->
-      <div class="col-12 col-md-6 col-lg-4">
+      <!-- Brand -->
+      <div class="col-lg-4 col-md-6">
 
-        <div class="d-flex align-items-center mb-3">
+        <a
+          href="/"
+          class="text-decoration-none d-inline-flex align-items-center mb-3">
 
-          <i class="bi bi-shield-fill-check text-success fs-3 me-2"></i>
+          <span
+            class="bg-success rounded-3 d-flex align-items-center justify-content-center me-2"
+            style="width: 40px; height: 40px;">
 
-          <h5 class="mb-0 fw-bold">
-            PlayerStats
-          </h5>
+            <i class="fa-solid fa-graduation-cap text-white"></i>
 
-        </div>
+          </span>
 
-        <p class="text-secondary mb-0">
-          Plataforma para consultar, explorar y gestionar
-          información y estadísticas de jugadores de FIFA / EA FC.
+          <span class="fs-5 fw-bold text-light">
+            Práctica <span class="text-success">Lima</span>
+          </span>
+
+        </a>
+
+        <p class="text-secondary mb-3">
+          Conectamos a estudiantes universitarios con
+          oportunidades de prácticas pre-profesionales
+          para impulsar su desarrollo profesional.
         </p>
+
+        <div class="small text-secondary">
+          <i class="fa-solid fa-circle-check text-success me-1"></i>
+          Oportunidades para estudiantes
+        </div>
 
       </div>
 
-      <!-- Navegación -->
-      <div class="col-6 col-md-3 col-lg-2">
 
-        <h6 class="text-uppercase fw-bold mb-3">
-          Navegación
+      <!-- Plataforma -->
+      <div class="col-lg-2 col-md-6">
+
+        <h6 class="fw-bold mb-3">
+          Plataforma
         </h6>
 
-        <ul class="list-unstyled">
+        <ul class="list-unstyled mb-0">
 
           <li class="mb-2">
             <a
               href="/"
               class="text-secondary text-decoration-none">
+
               Inicio
+
             </a>
           </li>
 
           <li class="mb-2">
             <a
-              href="/players"
+              href="/convocatorias"
               class="text-secondary text-decoration-none">
-              Jugadores
+
+              Ofertas laborales
+
             </a>
           </li>
 
           <li class="mb-2">
             <a
-              href="/teams"
+              href="/empresas"
               class="text-secondary text-decoration-none">
-              Equipos
+
+              Empresas
+
             </a>
           </li>
 
-          <li class="mb-2">
+          <li>
             <a
-              href="/leagues"
+              href="/como-funciona"
               class="text-secondary text-decoration-none">
-              Ligas
+
+              Cómo funciona
+
             </a>
           </li>
 
@@ -70,44 +94,43 @@
 
       </div>
 
-      <!-- Explorar -->
-      <div class="col-6 col-md-3 col-lg-3">
 
-        <h6 class="text-uppercase fw-bold mb-3">
-          Explorar
+      <!-- Para empresas -->
+      <div class="col-lg-2 col-md-6">
+
+        <h6 class="fw-bold mb-3">
+          Para empresas
         </h6>
 
-        <ul class="list-unstyled">
+        <ul class="list-unstyled mb-0">
 
           <li class="mb-2">
             <a
-              href="/players"
+              href="/register"
               class="text-secondary text-decoration-none">
-              Todos los jugadores
+
+              Crear cuenta
+
             </a>
           </li>
 
           <li class="mb-2">
             <a
-              href="/players?sort=ranking"
+              href="/login"
               class="text-secondary text-decoration-none">
-              Mejor valorados
+
+              Iniciar sesión
+
             </a>
           </li>
 
-          <li class="mb-2">
+          <li>
             <a
-              href="/players?position=GK"
+              href="/como-funciona"
               class="text-secondary text-decoration-none">
-              Arqueros
-            </a>
-          </li>
 
-          <li class="mb-2">
-            <a
-              href="/players?position=ST"
-              class="text-secondary text-decoration-none">
-              Delanteros
+              Publicar una oferta
+
             </a>
           </li>
 
@@ -115,63 +138,126 @@
 
       </div>
 
-      <!-- Redes / proyecto -->
-      <div class="col-12 col-lg-3">
 
-        <h6 class="text-uppercase fw-bold mb-3">
-          PlayerStats
+      <!-- Ayuda -->
+      <div class="col-lg-2 col-md-6">
+
+        <h6 class="fw-bold mb-3">
+          Ayuda
         </h6>
 
-        <p class="text-secondary small">
-          Base de datos orientada a la consulta y gestión
-          de estadísticas de jugadores.
-        </p>
+        <ul class="list-unstyled mb-0">
 
-        <div class="d-flex gap-2">
+          <li class="mb-2">
+            <a
+              href="/preguntas-frecuentes"
+              class="text-secondary text-decoration-none">
 
-          <a
-            href="#"
-            class="btn btn-outline-secondary btn-sm rounded-circle">
+              Preguntas frecuentes
 
-            <i class="bi bi-github"></i>
+            </a>
+          </li>
 
-          </a>
+          <li class="mb-2">
+            <a
+              href="/terminos"
+              class="text-secondary text-decoration-none">
 
-          <a
-            href="#"
-            class="btn btn-outline-secondary btn-sm rounded-circle">
+              Términos del servicio
 
-            <i class="bi bi-linkedin"></i>
+            </a>
+          </li>
 
-          </a>
+          <li>
+            <a
+              href="/privacidad"
+              class="text-secondary text-decoration-none">
 
-          <a
-            href="#"
-            class="btn btn-outline-secondary btn-sm rounded-circle">
+              Privacidad de datos
 
-            <i class="bi bi-instagram"></i>
+            </a>
+          </li>
 
-          </a>
+        </ul>
 
-        </div>
+      </div>
+
+
+      <!-- Contacto -->
+      <div class="col-lg-2 col-md-6">
+
+        <h6 class="fw-bold mb-3">
+          Contacto
+        </h6>
+
+        <ul class="list-unstyled text-secondary mb-0">
+
+          <li class="mb-3">
+
+            <i class="fa-solid fa-envelope text-success me-2"></i>
+
+            <a
+              href="mailto:practicas@ulima.edu.pe"
+              class="text-secondary text-decoration-none">
+
+              practicas@ulima.edu.pe
+
+            </a>
+
+          </li>
+
+          <li>
+
+            <i class="fa-solid fa-location-dot text-success me-2"></i>
+
+            Lima, Perú
+
+          </li>
+
+        </ul>
 
       </div>
 
     </div>
 
+
+    <!-- Divider -->
     <hr class="border-secondary my-4">
 
-    <!-- Copyright -->
+
+    <!-- Bottom -->
     <div
-      class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+      class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
 
-      <p class="text-secondary small mb-2 mb-md-0">
-        © 2026 PlayerStats. Todos los derechos reservados.
-      </p>
+      <!-- Copyright -->
+      <div class="text-secondary small">
 
-      <p class="text-secondary small mb-0">
-        Proyecto de gestión de datos deportivos
-      </p>
+        © <%= new Date().getFullYear() %> Práctica Lima.
+        Todos los derechos reservados.
+
+      </div>
+
+
+      <!-- University -->
+      <div>
+
+        <a
+          href="https://www.ulima.edu.pe/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-secondary text-decoration-none small">
+
+          <i class="fa-solid fa-graduation-cap text-success me-1"></i>
+
+          Universidad de Lima
+
+          <i
+            class="fa-solid fa-arrow-up-right-from-square ms-1 small">
+          </i>
+
+        </a>
+
+      </div>
 
     </div>
 
