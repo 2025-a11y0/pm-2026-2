@@ -1,7 +1,15 @@
 body {
     min-height: 100vh;
 
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+    background-image: url("/assets/img/login-bg.png");
+>>>>>>> 08d45efb2b6a16f8a8af4ae64fe338c6bf6e7d79
+>>>>>>> 39e25d149ce4fa91afc63609cd51769033a0115b
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,6 +27,10 @@ fasd */
 
 .bg-opacity-90{
     background-color: rgba(255, 255, 255, 0.9) !important;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 39e25d149ce4fa91afc63609cd51769033a0115b
 }
 
 body {
@@ -40,3 +52,9 @@ body::before {
   opacity: 1;
   transition: opacity 0.8s ease-in-out;
 }
+<<<<<<< HEAD
+=======
+=======
+}
+>>>>>>> 08d45efb2b6a16f8a8af4ae64fe338c6bf6e7d79
+>>>>>>> 39e25d149ce4fa91afc63609cd51769033a0115b
