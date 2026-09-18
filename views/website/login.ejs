@@ -1,0 +1,109 @@
+<!-- views\website\login.ejs -->
+<% layout("layouts/access") %>
+
+<div class="login-form bg-white bg-opacity-90 p-5 mt-5">
+
+  <!-- Logo
+    asdfa
+    sdfasd
+    fasd -->
+  <div class="text-center mb-4">
+    <img
+      src="/assets/img/ulimaLogo.png"
+      width="203"
+      height="50"
+      alt="Universidad de Lima"
+    >
+  </div>
+
+  <!-- Usuario -->
+  <div class="mb-3">
+    <label for="txtUser" class="form-label">
+      Usuario
+    </label>
+
+    <input
+      class="form-control"
+      type="text"
+      name="username"
+      id="txtUser"
+      placeholder="Ingrese su usuario"
+    >
+  </div>
+
+  <!-- Contraseña -->
+  <div class="mb-3">
+    <label for="txtPassword" class="form-label">
+      Contraseña
+    </label>
+
+    <input
+      class="form-control"
+      type="password"
+      name="password"
+      id="txtPassword"
+      placeholder="Ingrese su contraseña"
+    >
+  </div>
+
+  <!-- Botón -->
+  <div class="d-grid mb-3">
+    <button type="button" class="btn btn-dark" onclick="ingresar()">
+      Iniciar Sesión
+    </button>
+  </div>
+
+  <!-- Recuperar contraseña -->
+  <div class="text-center mb-4">
+    <a href="/reset-password">
+      ¿Has olvidado tu contraseña?
+    </a>
+  </div>
+
+  <!-- Comunicado -->
+  <div class="bg-secondary text-white p-3 mb-4">
+
+    <h5 class="mb-3">
+      COMUNICADO
+    </h5>
+
+    <p class="mb-0 small">
+      Estimados usuarios de la comunidad ULima:
+      <br><br>
+
+      Para resolver sus consultas sobre las plataformas
+      Blackboard y Zoom, ponemos a su disposición los siguientes
+      canales de atención:
+      <br><br>
+
+      Correo electrónico: soporteaulas@ulima.edu.pe
+      <br>
+      Teléfono: 01 437 8800
+      <br>
+      Anexo (en campus): 500
+      <br>
+      Presencial: Sótano Edificio L2.
+      <br>
+      Horario: Lunes a viernes 7-22hrs, Sábados 7-13hrs
+    </p>
+
+  </div>
+
+  <!-- Copyright -->
+  <div class="text-center">
+    <small class="text-muted">
+      © 1997-2026 Blackboard Inc. Todos los derechos reservados.
+    </small>
+  </div>
+
+</div>
+
+
+<script>
+  function ingresar(){
+    let username = document.getElementById("txtUser").value;
+    console.log(username)
+    let password = document.getElementById("txtPassword").value;
+    console.log(password)
+  }
+</script>

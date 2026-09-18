@@ -42,7 +42,19 @@ export function signIn(req, res) {
   });
 }
 
-export async function login(req, res) {
+export function login(req, res) {
+  return res.render('website/login', {
+    title: 'Bienvenido',
+  });
+}
+
+export function resetPassword(req, res) {
+  return res.render('website/reset-password', {
+    title: 'Recuperar Contraseña',
+  });
+}
+
+export async function login2(req, res) {
   const { user, password } = req.body;
   const validUser = process.env.DEFAULT_USER || 'admin';
   const validPassword = process.env.DEFAULT_PASSWORD || '123';
