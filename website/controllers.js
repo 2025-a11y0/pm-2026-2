@@ -49,6 +49,7 @@ export function signIn(req, res) {
 }
 
 export function login(req, res) {
+<<<<<<< HEAD
   let fondos = [
     "/assets/img/login-bg.png",
     "/assets/img/login-bg2.png",
@@ -57,6 +58,10 @@ export function login(req, res) {
   return res.render('website/login', {
     title: 'Bienvenido',
     background: fondos[Math.floor(Math.random() * 3)]
+=======
+  return res.render('website/login', {
+    title: 'Bienvenido',
+>>>>>>> 08d45efb2b6a16f8a8af4ae64fe338c6bf6e7d79
   });
 }
 

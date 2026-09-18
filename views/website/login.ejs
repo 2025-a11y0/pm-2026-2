@@ -16,10 +16,13 @@
     >
   </div>
 
+<<<<<<< HEAD
   <div class="alert d-none" role="alert" id="alertMessage">
     A simple danger alert—check it out!
   </div>
 
+=======
+>>>>>>> 08d45efb2b6a16f8a8af4ae64fe338c6bf6e7d79
   <!-- Usuario -->
   <div class="mb-3">
     <label for="txtUser" class="form-label">
@@ -52,7 +55,11 @@
 
   <!-- Botón -->
   <div class="d-grid mb-3">
+<<<<<<< HEAD
     <button type="button" class="btn btn-dark" onclick="ingresar()" id="btnIngresar">
+=======
+    <button type="button" class="btn btn-dark" onclick="ingresar()">
+>>>>>>> 08d45efb2b6a16f8a8af4ae64fe338c6bf6e7d79
       Iniciar Sesión
     </button>
   </div>
@@ -106,6 +113,7 @@
 <script>
   function ingresar(){
     let username = document.getElementById("txtUser").value;
+<<<<<<< HEAD
     let password = document.getElementById("txtPassword").value;
     let alertMessage = document.getElementById("alertMessage");
     
@@ -153,4 +161,10 @@
       document.body.style.backgroundImage = `url('${fondos[indice]}')`;
     }, 5000);
   });
+=======
+    console.log(username)
+    let password = document.getElementById("txtPassword").value;
+    console.log(password)
+  }
+>>>>>>> 08d45efb2b6a16f8a8af4ae64fe338c6bf6e7d79
 </script>
