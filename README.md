@@ -23,39 +23,6 @@ La aplicación utiliza Supabase como base de datos y dispone de migraciones SQL 
 | `website/` | Lógica del sitio web: APIs, controladores, modelos, repositorios, rutas y servicios. |
 | `server.js` | Archivo principal para iniciar y configurar el servidor Express. |
 
-# Comandos GIT
-
-Descargar GIT del [enlace](https://git-scm.com/install/windows)
-
-![Sitio web de descarga](./docs/Git.png)
-
-Crear proyecto GIT
-
-    > git init
-
-Loguearse
-
-    > git config --global user.name "Tu Nombre"
-    > git config --global user.email "tu-correo@gmail.com"
-
-    > git log --oneline
-
-Crear rama
-
-     > git checkout -b feature/prueba
-     > fir checout #nombre_rama
-
-Cambiar a commit
-
-    > git reset --hard #commit
-
-Cambiar remote
-
-    > git remote set-url origin https://github.com/2025-a11y0/pm-2026-2.git
-    
-Ver ramas 
-
-    > git branch
 
 ## Comandos GIT
 
@@ -97,13 +64,6 @@ Cambiar remote
 Instalar dependencias:
 
     npm install
-
-COdigo para home.ejs (en docs y views)
-
-    > Quiero un homescreem usando bootstrap 5 sobre tecnologia
-
-
-![](./docs/Git_subir.png)
 
 npm install -g vercel
 vercel login
